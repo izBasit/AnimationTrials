@@ -1,6 +1,7 @@
 package com.mobien.animationtesting;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -28,7 +29,7 @@ public class AnimationTestingActivity extends Activity {
 		Animation a1;
 		switch (view.getId()) {
 		case R.id.button1:
-			a = AnimationUtils.loadAnimation(this, R.anim.slide_top_to_bottom);
+			/*a = AnimationUtils.loadAnimation(this, R.anim.slide_top_to_bottom);
 			a.reset();
 			lRight2.setVisibility(View.VISIBLE);
 			lRight2.startAnimation(a);
@@ -36,7 +37,12 @@ public class AnimationTestingActivity extends Activity {
 			 a1 = AnimationUtils.loadAnimation(this,
 			 R.anim.fade_out); a1.reset();
 			 lRight.setVisibility(View.GONE); 
-			 lRight.startAnimation(a1);
+			 lRight.startAnimation(a1);*/
+			
+			Intent intent = new Intent();
+			intent.setClass(this, SlidingExampleActivity.class);
+			startActivity(intent);
+			finish();
 			 
 
 			break;
