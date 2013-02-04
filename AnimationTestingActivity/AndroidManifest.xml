@@ -26,6 +26,10 @@
             android:name="com.mobien.animationtesting.SlidingExampleActivity"
             android:label="@string/title_activity_sliding_example" >
         </activity>
+        <activity
+            android:name="com.mobien.animationtesting.SlideActivity"
+            android:label="@string/title_activity_slide" >
+        </activity>
     </application>
 
 </manifest>

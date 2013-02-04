@@ -40,9 +40,9 @@ public class AnimationTestingActivity extends Activity {
 			 lRight.startAnimation(a1);*/
 			
 			Intent intent = new Intent();
-			intent.setClass(this, SlidingExampleActivity.class);
+			intent.setClass(this, SlideActivity.class);
 			startActivity(intent);
-			finish();
+//			finish();
 			 
 
 			break;
@@ -113,13 +113,6 @@ public class AnimationTestingActivity extends Activity {
 		default:
 			break;
 		}
-	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.activity_animation_testing, menu);
-		return true;
 	}
 
 }

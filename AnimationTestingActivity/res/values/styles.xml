@@ -246,4 +246,9 @@
         <item name="android:windowEnterAnimation">@anim/gd_grow_from_bottom</item>
         <item name="android:windowExitAnimation">@anim/gd_shrink_from_bottom</item>
     </style>
+    
+        <style name="SlidingAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
 </resources>

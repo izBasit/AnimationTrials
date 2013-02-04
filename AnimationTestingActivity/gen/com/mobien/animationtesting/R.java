@@ -16,12 +16,16 @@ public final class R {
         public static final int fade_out=0x7f040004;
         public static final int gd_grow_from_bottom=0x7f040005;
         public static final int gd_shrink_from_bottom=0x7f040006;
-        public static final int slide_bottom_to_top=0x7f040007;
-        public static final int slide_left_enter=0x7f040008;
-        public static final int slide_left_exit=0x7f040009;
-        public static final int slide_right_enter=0x7f04000a;
-        public static final int slide_right_exit=0x7f04000b;
-        public static final int slide_top_to_bottom=0x7f04000c;
+        public static final int in_from_right=0x7f040007;
+        public static final int out_to_right=0x7f040008;
+        public static final int slide_bottom_to_top=0x7f040009;
+        public static final int slide_left=0x7f04000a;
+        public static final int slide_left_enter=0x7f04000b;
+        public static final int slide_left_exit=0x7f04000c;
+        public static final int slide_right=0x7f04000d;
+        public static final int slide_right_enter=0x7f04000e;
+        public static final int slide_right_exit=0x7f04000f;
+        public static final int slide_top_to_bottom=0x7f040010;
     }
     public static final class attr {
     }
@@ -30,10 +34,10 @@ public final class R {
         public static final int logo_action_bar=0x7f020001;
     }
     public static final class id {
-        public static final int LinearLayout1=0x7f08000c;
-        public static final int btnMenu=0x7f080011;
-        public static final int btnNo=0x7f080018;
-        public static final int btnYesOk=0x7f080017;
+        public static final int LinearLayout1=0x7f080010;
+        public static final int btnMenu=0x7f080014;
+        public static final int btnNo=0x7f08001b;
+        public static final int btnYesOk=0x7f08001a;
         public static final int button1=0x7f080001;
         public static final int button2=0x7f080002;
         public static final int button3=0x7f080003;
@@ -43,39 +47,43 @@ public final class R {
         public static final int button7=0x7f080009;
         public static final int button8=0x7f08000a;
         public static final int button9=0x7f08000b;
-        public static final int devider1=0x7f080012;
-        public static final int header=0x7f080010;
-        public static final int listView1=0x7f08000f;
+        public static final int devider1=0x7f080015;
+        public static final int frame1=0x7f08000c;
+        public static final int frame2=0x7f08000e;
+        public static final int header=0x7f080013;
+        public static final int listView1=0x7f080012;
+        public static final int listView2=0x7f08000f;
         public static final int ll1=0x7f080000;
         public static final int ll2=0x7f080004;
         public static final int ll3=0x7f080008;
-        public static final int menu_settings=0x7f080019;
-        public static final int rlMessage=0x7f080014;
-        public static final int slideree=0x7f08000e;
+        public static final int menu_settings=0x7f08001c;
+        public static final int rlMessage=0x7f080017;
+        public static final int slideree=0x7f080011;
         public static final int textView1=0x7f08000d;
-        public static final int tvDialogHeading=0x7f080013;
-        public static final int tvMessageDetail=0x7f080016;
-        public static final int tvMessageHeader=0x7f080015;
+        public static final int tvDialogHeading=0x7f080016;
+        public static final int tvMessageDetail=0x7f080019;
+        public static final int tvMessageHeader=0x7f080018;
     }
     public static final class layout {
         public static final int activity_animation_testing=0x7f030000;
-        public static final int activity_sliding_example=0x7f030001;
-        public static final int app_dialog=0x7f030002;
+        public static final int activity_slide=0x7f030001;
+        public static final int activity_sliding_example=0x7f030002;
+        public static final int app_dialog=0x7f030003;
     }
     public static final class menu {
-        public static final int activity_animation_testing=0x7f070000;
-        public static final int activity_sliding_example=0x7f070001;
+        public static final int activity_slide=0x7f070000;
     }
     public static final class string {
         public static final int app_name=0x7f050000;
-        public static final int dialogheader=0x7f050004;
+        public static final int dialogheader=0x7f050005;
         public static final int hello_world=0x7f050001;
         public static final int menu_settings=0x7f050002;
-        public static final int no=0x7f050008;
-        public static final int ok=0x7f050006;
+        public static final int no=0x7f050009;
+        public static final int ok=0x7f050007;
+        public static final int title_activity_slide=0x7f050004;
         public static final int title_activity_sliding_example=0x7f050003;
-        public static final int transactionerror=0x7f050005;
-        public static final int yes=0x7f050007;
+        public static final int transactionerror=0x7f050006;
+        public static final int yes=0x7f050008;
     }
     public static final class style {
         /** 
@@ -87,17 +95,6 @@ public final class R {
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         
-
-        Base application theme for API 11+. This theme completely replaces
-        AppBaseTheme from res/values/styles.xml on API 11+ devices.
-    
- API 11 theme customizations can go here. 
-
-        Base application theme for API 14+. This theme completely replaces
-        AppBaseTheme from BOTH res/values/styles.xml and
-        res/values-v11/styles.xml on API 14+ devices.
-    
- API 14 theme customizations can go here. 
          */
         public static final int AppBaseTheme=0x7f060000;
         /**  Application theme. 
@@ -136,6 +133,7 @@ public final class R {
         public static final int Grey_Bold_16SP=0x7f060011;
         public static final int Grey_Bold_18SP=0x7f060013;
         public static final int Grey_Bold_20SP=0x7f060015;
+        public static final int SlidingAnimation=0x7f06002c;
         public static final int White_12SP=0x7f060003;
         public static final int White_14SP=0x7f060004;
         public static final int White_16SP=0x7f060007;

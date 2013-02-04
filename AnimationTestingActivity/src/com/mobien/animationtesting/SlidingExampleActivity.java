@@ -2,8 +2,8 @@ package com.mobien.animationtesting;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.View;
+import android.view.Window;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
@@ -22,6 +22,7 @@ public class SlidingExampleActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		getWindow().getAttributes().windowAnimations = R.style.SlidingAnimation;
 		setContentView(R.layout.activity_sliding_example);
 		
 		ll = (LinearLayout)findViewById(R.id.LinearLayout1);
@@ -59,18 +60,11 @@ public class SlidingExampleActivity extends Activity {
 		
 		Animation a;
 		
-		a = AnimationUtils.loadAnimation(this, R.anim.slide_left_exit);
+		a = AnimationUtils.loadAnimation(this, R.anim.slide_left);
 		a.reset();
 		ll.startAnimation(a);
-		lvListItems.setVisibility(View.VISIBLE);
 		lvListItems.startAnimation(a);
-	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.activity_sliding_example, menu);
-		return true;
+		lvListItems.setVisibility(View.VISIBLE);
 	}
 
 }

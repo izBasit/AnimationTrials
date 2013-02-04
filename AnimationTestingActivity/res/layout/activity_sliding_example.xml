@@ -7,7 +7,6 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_weight="1"
         android:orientation="vertical" >
 
         <LinearLayout
@@ -17,16 +16,14 @@
 
             <TextView
                 android:id="@+id/textView1"
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:text="TextView" />
 
             <Button
                 android:id="@+id/slideree"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_width="75dp"
+                android:layout_height="50dp"
                 android:onClick="onClickSlide"
                 android:text="Button" />
         </LinearLayout>
@@ -36,9 +33,9 @@
     <ListView
         android:id="@+id/listView1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:visibility="gone"
-        android:layout_weight="1" >
+        android:layout_height="200dp"
+        android:background="@android:color/black"
+        android:visibility="gone" >
     </ListView>
 
 </LinearLayout>
