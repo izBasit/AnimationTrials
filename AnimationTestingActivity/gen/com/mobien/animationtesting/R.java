@@ -18,14 +18,18 @@ public final class R {
         public static final int gd_shrink_from_bottom=0x7f040006;
         public static final int in_from_right=0x7f040007;
         public static final int out_to_right=0x7f040008;
-        public static final int slide_bottom_to_top=0x7f040009;
-        public static final int slide_left=0x7f04000a;
-        public static final int slide_left_enter=0x7f04000b;
-        public static final int slide_left_exit=0x7f04000c;
-        public static final int slide_right=0x7f04000d;
-        public static final int slide_right_enter=0x7f04000e;
-        public static final int slide_right_exit=0x7f04000f;
-        public static final int slide_top_to_bottom=0x7f040010;
+        public static final int side_navigation_in_from_left=0x7f040009;
+        public static final int side_navigation_in_from_right=0x7f04000a;
+        public static final int side_navigation_out_to_left=0x7f04000b;
+        public static final int side_navigation_out_to_right=0x7f04000c;
+        public static final int slide_bottom_to_top=0x7f04000d;
+        public static final int slide_left=0x7f04000e;
+        public static final int slide_left_enter=0x7f04000f;
+        public static final int slide_left_exit=0x7f040010;
+        public static final int slide_right=0x7f040011;
+        public static final int slide_right_enter=0x7f040012;
+        public static final int slide_right_exit=0x7f040013;
+        public static final int slide_top_to_bottom=0x7f040014;
     }
     public static final class attr {
     }

@@ -58,7 +58,7 @@ public class SlideActivity extends Activity {
 	}
 	
 	public void exitAnimation() {
-		Animation a = AnimationUtils.loadAnimation(this, R.anim.slide_right);
+		Animation a = AnimationUtils.loadAnimation(this, R.anim.side_navigation_out_to_right);
 		a.reset();
 		
 		frame1.startAnimation(a);
@@ -78,7 +78,7 @@ public class SlideActivity extends Activity {
 		
 		Animation a;
 		
-		a = AnimationUtils.loadAnimation(this, R.anim.slide_left);
+		a = AnimationUtils.loadAnimation(this, R.anim.side_navigation_in_from_right);
 		a.reset();
 		frame1.startAnimation(a);
 		frame2.startAnimation(a);
