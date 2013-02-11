@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SlidingListMenu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title1">ABC</string>
+    <string name="title2">DEF</string>
+    <string name="title3">GHI</string>
+    <string name="title4">JKL</string>
+    <string name="title5">MNO</string>
+    
+</resources>
