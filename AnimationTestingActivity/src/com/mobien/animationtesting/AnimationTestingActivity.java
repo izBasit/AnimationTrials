@@ -1,17 +1,23 @@
 package com.mobien.animationtesting;
 
 import android.app.Activity;
+import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
+import android.widget.ListView;
+import android.widget.Toast;
 
 public class AnimationTestingActivity extends Activity {
 
 	LinearLayout lLeft, lRight, lRight2;
+	ListView lvListItems;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -77,9 +83,12 @@ public class AnimationTestingActivity extends Activity {
 		
 		case R.id.button4:
 			
-			App_Dialog dialog = new App_Dialog(this, "Trial", "TRIAAALLLLLLLLLLLLLLLLLLLZZZ", 0);
-			dialog.show();
-
+			/*App_Dialog dialog = new App_Dialog(this, "Trial", "TRIAAALLLLLLLLLLLLLLLLLLLZZZ", 0);
+			dialog.show();*/
+			
+			Intent intent1 = new Intent();
+			intent1.setClass(this, SideNavigationActivity.class);
+			startActivity(intent1);
 			break;
 			
 			

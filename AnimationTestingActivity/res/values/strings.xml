@@ -6,5 +6,6 @@
     <string name="menu_settings">Settings</string>
     <string name="title_activity_sliding_example">SlidingExampleActivity</string>
     <string name="title_activity_slide">SlideActivity</string>
+    <string name="title_activity_side_navigation">SideNavigationActivity</string>
 
 </resources>

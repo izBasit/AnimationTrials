@@ -1,22 +1,23 @@
-package com.mobien.slidinglistmenu;
+package com.mobien.animationtesting;
 
 
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.View;
-import android.view.Window;
 import android.view.View.OnClickListener;
+import android.view.Window;
 import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.AdapterView.OnItemClickListener;
 
-public class SlidingListMenuActivity extends Activity {
+public class SideNavigationActivity extends Activity {
 	
 	private TextView tvListItem;
 	private LinearLayout sideNavigationMenu;
@@ -70,6 +71,13 @@ public class SlidingListMenuActivity extends Activity {
 		});
 	}
 
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.activity_side_navigation, menu);
+		return true;
+	}
+	
 	
     @Override
     public void onBackPressed() {
@@ -120,5 +128,5 @@ public class SlidingListMenuActivity extends Activity {
         sideNavigationMenu.startAnimation(AnimationUtils.loadAnimation(mContext, animRes));
     }
     
-   
+	
 }

@@ -40,26 +40,23 @@ public final class R {
         public static final int side_navigation_shadow_right=0x7f020002;
     }
     public static final class id {
-        public static final int button1=0x7f0a0001;
-        public static final int menu_settings=0x7f0a0008;
-        public static final int shadow=0x7f0a0007;
-        public static final int side_navigation_item_text=0x7f0a0003;
+        public static final int button11=0x7f0a0001;
+        public static final int menu_settings=0x7f0a0007;
+        public static final int shadow=0x7f0a0005;
         public static final int side_navigation_listview=0x7f0a0006;
-        public static final int side_navigation_menu=0x7f0a0005;
-        public static final int side_navigation_menu_item1=0x7f0a0009;
-        public static final int side_navigation_menu_item2=0x7f0a000a;
-        public static final int side_navigation_menu_item3=0x7f0a000b;
-        public static final int side_navigation_menu_item4=0x7f0a000c;
-        public static final int side_navigation_menu_item5=0x7f0a000d;
-        public static final int side_navigation_outside_view=0x7f0a0004;
+        public static final int side_navigation_menu=0x7f0a0004;
+        public static final int side_navigation_menu_item1=0x7f0a0008;
+        public static final int side_navigation_menu_item2=0x7f0a0009;
+        public static final int side_navigation_menu_item3=0x7f0a000a;
+        public static final int side_navigation_menu_item4=0x7f0a000b;
+        public static final int side_navigation_menu_item5=0x7f0a000c;
+        public static final int side_navigation_outside_view=0x7f0a0003;
         public static final int side_navigation_view=0x7f0a0002;
-        public static final int textView1=0x7f0a0000;
+        public static final int textView11=0x7f0a0000;
     }
     public static final class layout {
-        public static final int activity_sliding_list_menu=0x7f030000;
-        public static final int side_navigation_item=0x7f030001;
-        public static final int side_navigation_left=0x7f030002;
-        public static final int side_navigation_right=0x7f030003;
+        public static final int activity_side_navigation=0x7f030000;
+        public static final int side_navigation_right=0x7f030001;
     }
     public static final class menu {
         public static final int activity_sliding_list_menu=0x7f090000;

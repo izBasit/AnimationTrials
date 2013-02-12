@@ -30,6 +30,10 @@
             android:name="com.mobien.animationtesting.SlideActivity"
             android:label="@string/title_activity_slide" >
         </activity>
+        <activity
+            android:name="com.mobien.animationtesting.SideNavigationActivity"
+            android:label="@string/title_activity_side_navigation" >
+        </activity>
     </application>
 
 </manifest>
